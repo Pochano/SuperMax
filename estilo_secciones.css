@@ -1,0 +1,96 @@
+body{
+   background-color:#d1fccb;
+   color: #fff;
+   font-family: "Nunito Semibold";
+   text-align: center;
+ }
+ 
+ #Secciones{
+   grid-template-columns: repeat(4,1fr);
+   grid-auto-rows: minmax(auto,auto);
+   grid-gap: 10px;
+   display: grid;
+ }
+ 
+ #Secciones div{
+   padding: 30px;
+ }
+ 
+ .Cabecera{
+   grid-column: 1/5;
+   background: #84bab4;
+   grid-template-columns: repeat(5,1fr);
+   display: grid;
+   grid-gap: 10px;
+ }
+ 
+ .Logo{
+   grid-column: 1/5;
+   background: #9ebab6; 
+   grid-row: 2/24;
+ }
+
+ .Logo_nombre{
+   grid-column: 1/3;
+   background: #9ebab6; 
+}
+.Logout_btn{
+   grid-column: 5/6;
+   background: #9ebab6;
+}
+ 
+ .Productos{
+
+   grid-column: 1/5;
+   background: #a9e39e;
+
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 10px;
+
+   grid-row: 24/124;
+
+ }
+
+ .Frutas_y_Verduras{
+   grid-column: 1/2;
+   background: #e6a283;
+ }
+ .Carnes{
+   grid-column: 2/3;
+   background: #e6a283;
+ }
+ .Lacteos{
+   grid-column: 3/4;
+   background: #e6a283;
+ }
+ .Embutidos_y_Fiembres{
+   grid-column: 1/2;
+   background: #e6a283;
+ }
+ .Bebidas{
+   grid-column: 2/3;
+   background: #e6a283;
+ }
+ .Conservas_y_Enlatados{
+   grid-column: 3/4;
+   background: #e6a283;
+ }
+ .Abarrotes{
+   grid-column: 1/2;
+   background: #e6a283;
+ }
+ .Productos_de_Limpieza{
+   grid-column: 2/3;
+   background: #e6a283;
+ }
+ .Farmacia{
+   grid-column: 3/4;
+   background: #e6a283;
+ }
+ 
+
+ .Redes{
+   grid-column: 1/5;
+   background: #ba84a0;
+}

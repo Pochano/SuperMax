@@ -1,0 +1,347 @@
+body{
+    background-color:#d1fccb;
+    color: #fff;
+    font-family: "Nunito Semibold";
+    text-align: center;
+  }
+  
+  #Secciones{
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(auto,auto);
+    grid-gap: 10px;
+    display: grid;
+  }
+  
+  #Secciones div{
+    padding: 30px;
+  }
+
+  
+  .Cabecera{
+    grid-column: 1/5;
+    background: #84bab4;
+    grid-template-columns: repeat(5,1fr);
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+ 
+  .Logo_nombre{
+    grid-column: 1/3;
+    background: #9ebab6; 
+ }
+
+ .Carrito{
+    grid-column: 4/5;
+    background: #9ebab6;
+ }
+
+ .Logout_btn{
+    grid-column: 5/6;
+    background: #9ebab6;
+ }
+
+ .Seccion_Seleccionada{
+    grid-column: 1/5;
+    background: #ae95d1;
+    grid-row: 2/20;
+  }
+  
+  .Productos{
+ 
+    grid-column: 1/5;
+    background: #a9e39e;
+ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,600px);
+    grid-gap: 10px;
+ 
+    grid-row: 20/125;
+ 
+  }
+ 
+  .Manzanas{
+    grid-column: 1/2;
+    background: #e6a283;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+
+  .Imagen1{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background-image: url('Images/Frutas y Verduras/Manzana.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+
+  .Agregar1{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background: #d7a75e;
+  }
+
+  .Platanos{
+    grid-column: 2/3;
+    background: #e6a283;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+
+  .Imagen2{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background: #df84bb;
+    background-image: url('Images/Frutas y Verduras/Platano.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+
+  .Agregar2{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background: #d7a75e;
+  }
+
+  .Naranjas{
+    grid-column: 3/4;
+    background: #e6a283;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+
+  .Imagen3{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background: #df84bb;
+    background-image: url('Images/Frutas y Verduras/Naranjas.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+
+  .Agregar3{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background: #d7a75e;
+  }
+
+  .Uvas{
+    grid-column: 1/2;
+    background: #e6a283;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+
+  .Imagen4{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background: #df84bb;
+    background-image: url('Images/Frutas y Verduras/Uva.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+
+  .Agregar4{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background: #d7a75e;
+  }
+
+  .Fresas{
+    grid-column: 2/3;
+    background: #e6a283;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+
+  .Imagen5{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background: #df84bb;
+    background-image: url('Images/Frutas y Verduras/Fresas.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+
+  .Agregar5{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background: #d7a75e;
+  }
+
+
+  .Piña{
+    grid-column: 3/4;
+    background: #e6a283;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+
+  .Imagen6{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background: #df84bb;
+    background-image: url('Images/Frutas y Verduras/Piña.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+
+  .Agregar6{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background: #d7a75e;
+  }
+
+  .Zanahorias{
+    grid-column: 1/2;
+    background: #e6a283;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+
+  .Imagen7{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background: #df84bb;
+    background-image: url('Images/Frutas y Verduras/Zanahorias.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+
+  .Agregar7{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background: #d7a75e;
+  }
+
+  .Tomates{
+    grid-column: 2/3;
+    background: #e6a283;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+
+  .Imagen8{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background: #df84bb;
+    background-image: url('Images/Frutas y Verduras/Tomate.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+
+  .Agregar8{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background: #d7a75e;
+  }
+
+  .Lechuga{
+    grid-column: 3/4;
+    background: #e6a283;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+
+  .Imagen9{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background: #df84bb;
+    background-image: url('Images/Frutas y Verduras/Lechuga.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+
+  .Agregar9{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background: #d7a75e;
+  }
+  .Papa{
+    grid-column: 1/2;
+    background: #e6a283;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+
+  .Imagen10{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background: #df84bb;
+    background-image: url('Images/Frutas y Verduras/Papa.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+
+  .Agregar10{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background: #d7a75e;
+  }
+  .Brocoli{
+    grid-column: 2/3;
+    background: #e6a283;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+  .Imagen11{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background: #df84bb;
+    background-image: url('Images/Frutas y Verduras/Brocoli.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+
+  .Agregar11{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background: #d7a75e;
+  }
+  .Espinacas{
+    grid-column: 3/4;
+    background: #e6a283;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+ 
+  .Imagen12{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background: #df84bb;
+    background-image: url('Images/Frutas y Verduras/Espinaca.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+  .Agregar12{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background: #d7a75e;
+  }
+
+  .Nombre{
+    grid-column: 1/4;
+    grid-row: 5/6;
+    background: #69b795;
+  }
+
+
+
+  .Redes{
+    grid-column: 1/5;
+    background: #ba84a0;
+    grid-row: 125/126;
+ }

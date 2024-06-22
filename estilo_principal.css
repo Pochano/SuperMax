@@ -1,0 +1,59 @@
+body{
+   background-color:#d1fccb;
+   color: #fff;
+   font-family: "Nunito Semibold";
+   text-align: center;
+}
+
+#Contenido{
+   grid-template-columns: repeat(4,1fr);
+   grid-auto-rows: minmax(auto,auto);
+   grid-gap: 10px;
+   display: grid;
+}
+
+#Contenido div{
+   padding: 30px;
+}
+
+.Cabecera{
+   grid-column: 1/5;
+   background: #84bab4;
+   grid-template-columns: repeat(5,1fr);
+   display: grid;
+   grid-gap: 10px;
+}
+
+.Logo_nombre{
+   grid-column: 1/3;
+   background: #9ebab6; 
+}
+.Register_btn{
+   grid-column: 4/5;
+   background: #9ebab6;
+}
+.Info_atajo{
+   grid-column: 5/6;
+   background: #9ebab6;
+}
+
+
+.Imagen_Principal{
+   grid-column: 1/3;
+   grid-row: 2/50;
+   background: #7cac7b;
+}
+.Login{
+   grid-column: 3/5;
+   grid-row: 2/50;
+   background: #937da2;
+}
+.Informacion{
+   grid-column: 1/5;
+   grid-row: 50/120;
+   background: #b4ba84;
+}
+.Redes{
+   grid-column: 1/5;
+   background: #ba84a0;
+}
